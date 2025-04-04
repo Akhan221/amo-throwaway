@@ -29,6 +29,8 @@ def deploy_model(
     """Custom component that uploads a saved model from GCS to Vertex Model Registry
        and deploys the model to an endpoint for online prediction.
 
+
+
     Args:
         model_directory: GS location of saved model.
         project_id: Project_id.
